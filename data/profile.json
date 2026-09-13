@@ -2,9 +2,34 @@
   "name": "Pedro Henrique",
   "photo": "https://avatars.githubusercontent.com/u/138038003?s=400&v=4",
   "job": "Engenharia da Computação · UFAL | Aspiring Full Stack Developer",
-  "location": "Maceió - AL",
+  "location": "Brasil",
   "phone": "(82) 9 9672-5904",
   "email": "henriqueopedro11@gmail.com",
+  "contacts": [
+    {
+      "type": "location",
+      "label": "Brasil"
+    },
+    {
+      "type": "email",
+      "label": "henriqueopedro11@gmail.com",
+      "url": "mailto:henriqueopedro11@gmail.com"
+    },
+    {
+      "type": "instagram",
+      "label": "pedrofariias_",
+      "url": "https://instagram.com/pedrofariias_"
+    },
+    {
+      "type": "github",
+      "label": "pedrofariias",
+      "url": "https://github.com/pedrofariias"
+    },
+    {
+      "type": "linkedin",
+      "label": "LinkedIn (em breve)"
+    }
+  ],
   "skills": {
     "hardSkills": [
       {
