@@ -1,13 +1,13 @@
 # Portfolio
 
-Portfólio pessoal de **Pedro Henrique** — estudante da **UFAL**, aspiring Full Stack Developer.
+Portfólio pessoal de **Pedro Henrique** — estudante de **Engenharia da Computação** na **UFAL**, aspiring Full Stack Developer.
 
 **Demo:** https://pedrofariias.github.io/portfolio/
 
 ## Destaques
 
-- Formação: Universidade Federal de Alagoas (UFAL)
-- Em estudo na faculdade: **C** e **Python**
+- Curso: Engenharia da Computação (UFAL)
+- Base de engenharia: **C**, **Python**, algoritmos e fundamentos de sistemas
 - Prática: JavaScript/TypeScript, React, Node.js, automação e projetos fullstack
 
 ## Stack da página

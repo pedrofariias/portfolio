@@ -1,12 +1,20 @@
 {
   "name": "Pedro Henrique",
   "photo": "https://avatars.githubusercontent.com/u/138038003?s=400&v=4",
-  "job": "Estudante UFAL | Aspiring Full Stack Developer",
+  "job": "Engenharia da Computação · UFAL | Aspiring Full Stack Developer",
   "location": "Maceió - AL",
   "phone": "(82) 9 9672-5904",
   "email": "henriqueopedro11@gmail.com",
   "skills": {
     "hardSkills": [
+      {
+        "name": "C",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+      },
+      {
+        "name": "Python",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+      },
       {
         "name": "JavaScript",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
@@ -16,20 +24,16 @@
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
       },
       {
-        "name": "Python",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-      },
-      {
-        "name": "C",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
-      },
-      {
         "name": "React",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
       },
       {
         "name": "Node.js",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+      },
+      {
+        "name": "Linux",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
       },
       {
         "name": "Git",
@@ -41,12 +45,12 @@
       }
     ],
     "softSkills": [
+      "Resolução de problemas",
+      "Pensamento analítico",
       "Organização",
       "Proatividade",
       "Trabalho em equipe",
-      "Comunicação",
-      "Flexibilidade",
-      "Empatia"
+      "Comunicação"
     ]
   },
   "languages": [
@@ -83,6 +87,14 @@
   ],
   "conquest": [
     {
+      "name": "C",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+    },
+    {
+      "name": "Python",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+    },
+    {
       "name": "JavaScript",
       "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
     },
@@ -91,12 +103,12 @@
       "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
     },
     {
-      "name": "Python",
-      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+      "name": "Linux",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
     },
     {
-      "name": "C",
-      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+      "name": "Git",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
     },
     {
       "name": "React",
@@ -109,9 +121,9 @@
   ],
   "education": [
     {
-      "name": "Universidade Federal de Alagoas (UFAL)",
+      "name": "Engenharia da Computação — Universidade Federal de Alagoas (UFAL)",
       "period": "Em andamento",
-      "description": "Graduação em andamento. Na faculdade, estudo C e Python, além de fundamentos de computação. Em paralelo, desenvolvo projetos fullstack (APIs, frontends modernos, bancos de dados) e automações."
+      "description": "Graduação em Engenharia da Computação. Na formação, estudo C, Python, algoritmos, estruturas de dados e fundamentos de sistemas/engenharia. Em paralelo, desenvolvo projetos fullstack (APIs, frontends modernos, bancos de dados) e automações."
     },
     {
       "name": "Ensino Médio — E.E. Professora Claudizete Lima Eleutério",
