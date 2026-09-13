@@ -1,102 +1,127 @@
 {
-    "name": "Pedro Henrique",
-    "photo": "https://avatars.githubusercontent.com/u/138038003?s=400&u=e00244364e069019c6150edf8d5a59bb03581f6d&v=4",
-    "job": "Junior Developer",
-    "location": " Maceió - AL",
-    "phone": "(82) 9 9672-5904",
-    "email": "henriqueopedro11@gmail.com",
-    "skills": {
-      "hardSkills": [
-        {
-          "name": "Nodejs",
-          "logo": "https://raw.githubusercontent.com/pedriinn11/portfolio/master/data/images/nodejs.png"
-        },
-        {
-          "name": "JavaScript",
-          "logo": "https://raw.githubusercontent.com/pedriinn11/portfolio/master/data/images/java.png"
-        },
-        {
-          "name": "React",
-          "logo": "https://raw.githubusercontent.com/pedriinn11/portfolio/master/data/images/react.png"
-        },
-        {
-          "name": "Git",
-          "logo": "https://raw.githubusercontent.com/pedriinn11/portfolio/master/data/images/git.png"
-        },
-        {
-          "name": "GitHub",
-          "logo": "https://raw.githubusercontent.com/pedriinn11/portfolio/master/data/images/github.png"
-        },
-        {
-          "name": "CSS",
-          "logo": "https://raw.githubusercontent.com/pedriinn11/portfolio/master/data/images/css.png"
-        }
-      ],
-      "softSkills": [
-        "Organização",
-        "Proatividade",
-        "Trabalho em equipe",
-        "Comunicação",
-        "Flexibilidade",
-        "Empatia"
-        
-      ]
-    },
-    "languages": [
-      "Português BR",
-      "Inglês (intermediário)",
-      "Espanhol (básico)"    
-    ],
-    "portfolio": [
-      {
-        "name": "Pokedex",
-        "url": "https://github.com/pedriinn11/pokedex",
-        "github": true
-      },
-      {
-        "name": "Dev Links",
-        "url": "https://github.com/pedriinn11/devlinks",
-        "github": true
-      },
-      {
-        "name": "Tela de Login",
-        "url": "https://github.com/pedriinn11/telaLogin",
-        "github": true
-      }
-    ],
-    "conquest": [
-      
+  "name": "Pedro Henrique",
+  "photo": "https://avatars.githubusercontent.com/u/138038003?s=400&v=4",
+  "job": "Estudante UFAL | Aspiring Full Stack Developer",
+  "location": "Maceió - AL",
+  "phone": "(82) 9 9672-5904",
+  "email": "henriqueopedro11@gmail.com",
+  "skills": {
+    "hardSkills": [
       {
         "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/pedriinn11/portfolio/masterassets/images/icons/language/JavaScript.svg"
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
       },
-     
+      {
+        "name": "TypeScript",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+      },
+      {
+        "name": "Python",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+      },
+      {
+        "name": "C",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+      },
+      {
+        "name": "React",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+      },
+      {
+        "name": "Node.js",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+      },
       {
         "name": "Git",
-        "logo": "https://raw.githubusercontent.com/pedriinn11/portfolio/masterassets/images/icons/language/Git.svg"
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
       },
       {
-        "name": "GitHub",
-        "logo": "https://raw.githubusercontent.com/pedriinn11/portfolio/masterassets/images/icons/language/GitHub.svg"
+        "name": "Docker",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
       }
-     
     ],
-  
-    "education": [
-      {
-        "name": "Ensino Médio",
-        "period": "Jan 2021 - Dez 2023",
-        "description": "Concluí o ensino médio na E.E. Professora Claudizete Lima Eleutério em 2023. De 2021 a 2023, enfrentei desafios como aulas online e a volta ao presencial, desenvolvendo resiliência e novas habilidades. Participei de projetos e atividades que enriqueceram meu aprendizado. Agora, estou pronto e animado para os próximos passos.  "
-      },
-      {
-        "name": "Técnico em Administração",
-        "period": "Abr 2022 - Maio 2023",
-        "description": "Concluí o curso técnico em Administração, oferecido pelo Pronatec, de abril de 2022 a maio de 2023. Nesse período, desenvolvi habilidades essenciais para a área administrativa, participando de projetos práticos que enriqueceram meu aprendizado. Agora, estou pronto e animado para aplicar esse conhecimento em novos desafios profissionais."
-      },
-      {
-        "name": "Trilhar Conectar Discover, Rocketseat",
-        "period": "Maio 2023 - Maio 2023",
-        "description": "Concluí um curso de curta duração na Rocketseat, onde aprendi bastante sobre HTML, CSS, hardware e software. Esse período foi intenso e enriquecedor, proporcionando-me habilidades práticas e fundamentais para o desenvolvimento web e conhecimento técnico. Agora, estou pronto e animado para aplicar o que aprendi em novos desafios e projetos."
-      }
+    "softSkills": [
+      "Organização",
+      "Proatividade",
+      "Trabalho em equipe",
+      "Comunicação",
+      "Flexibilidade",
+      "Empatia"
     ]
-  }
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (intermediário)",
+    "Espanhol (básico)"
+  ],
+  "portfolio": [
+    {
+      "name": "OmniFix — SaaS multi-tenant para assistências técnicas (privado)",
+      "url": "https://github.com/pedrofariias",
+      "github": true
+    },
+    {
+      "name": "MuniPulse — plataforma municipal de indicadores APS (privado)",
+      "url": "https://github.com/pedrofariias",
+      "github": true
+    },
+    {
+      "name": "Automação de servidor Discord (privado)",
+      "url": "https://github.com/pedrofariias",
+      "github": true
+    },
+    {
+      "name": "Pokédex — JavaScript + PokéAPI",
+      "url": "https://pedrofariias.github.io/pokedex/",
+      "github": true
+    },
+    {
+      "name": "Este portfólio",
+      "url": "https://pedrofariias.github.io/portfolio/",
+      "github": true
+    }
+  ],
+  "conquest": [
+    {
+      "name": "JavaScript",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+    },
+    {
+      "name": "TypeScript",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+    },
+    {
+      "name": "Python",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+    },
+    {
+      "name": "C",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+    },
+    {
+      "name": "React",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+      "name": "Node.js",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+    }
+  ],
+  "education": [
+    {
+      "name": "Universidade Federal de Alagoas (UFAL)",
+      "period": "Em andamento",
+      "description": "Graduação em andamento. Na faculdade, estudo C e Python, além de fundamentos de computação. Em paralelo, desenvolvo projetos fullstack (APIs, frontends modernos, bancos de dados) e automações."
+    },
+    {
+      "name": "Ensino Médio — E.E. Professora Claudizete Lima Eleutério",
+      "period": "Jan 2021 - Dez 2023",
+      "description": "Conclusão do ensino médio, com experiências de ensino remoto e presencial que reforçaram resiliência e organização."
+    },
+    {
+      "name": "Técnico em Administração — Pronatec",
+      "period": "Abr 2022 - Maio 2023",
+      "description": "Formação técnica com foco em organização, processos e trabalho em equipe."
+    }
+  ]
+}

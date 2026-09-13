@@ -1,29 +1,20 @@
 # Portfolio
 
-Portfólio pessoal em HTML, CSS e JavaScript.
+Portfólio pessoal de **Pedro Henrique** — estudante da **UFAL**, aspiring Full Stack Developer.
 
 **Demo:** https://pedrofariias.github.io/portfolio/
 
-## Sobre
+## Destaques
 
-Página de apresentação com seções de skills, formação e projetos. Projeto de estudo focado em layout responsivo e organização de CSS.
+- Formação: Universidade Federal de Alagoas (UFAL)
+- Em estudo na faculdade: **C** e **Python**
+- Prática: JavaScript/TypeScript, React, Node.js, automação e projetos fullstack
 
-## Stack
+## Stack da página
 
-- HTML5
-- CSS3
-- JavaScript
+- HTML5 · CSS3 · JavaScript
+- Dados em `data/profile.json`
 
 ## Como rodar
 
-Abra `index.html` no navegador, ou use a demo no GitHub Pages.
-
-## Aprendizados
-
-- Estrutura semântica de página
-- Organização de estilos por seção
-- Layout responsivo
-
----
-
-Estudante UFAL · Aspiring Full Stack Developer
+Abra `index.html` no navegador ou acesse a demo no GitHub Pages.
