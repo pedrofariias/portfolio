@@ -1,45 +1,66 @@
-.skills{
-    display: flex;
-    flex-direction: column;
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
 }
 
-.skills .tools ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.skills h3 {
+  margin: 0 0 0.75rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 
-.skills .tools ul li img{
-    max-width: 50px;
-    max-height: 50px;
-    margin: 0 .5rem;
+.skills .tools ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.skills .personal ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-    
+.skills .tools ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 0.85rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border);
 }
 
-.skills .personal ul li{
-    margin-left: 2rem;
-    padding: .5rem;
+.skills .tools ul li img {
+  max-width: 1.9rem;
+  max-height: 1.9rem;
 }
 
-@media only screen and (min-width: 768px) {
-   .skills{
+.skills .personal ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skills .personal ul li {
+  margin: 0;
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  border: 1px solid rgba(62, 207, 142, 0.25);
+  color: #d7ffe9;
+  font-size: 0.92rem;
+}
+
+@media (min-width: 768px) {
+  .skills {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-   }
- 
+    grid-template-columns: 1.1fr 1fr;
+    gap: 2rem;
+  }
 }

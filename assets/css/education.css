@@ -1,75 +1,83 @@
 .language {
-    text-align: center; 
+  margin-bottom: 1.5rem;
 }
 
-.language ul li,
-.education li {
-    margin-bottom: 1rem;
+.language h3 {
+  margin: 0 0 0.85rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
-
-.language ul li img,
-.education li img {
-    margin-bottom: 1rem; 
-}
-
-
 
 .language ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .language ul li {
-    margin: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.4rem;
+  height: 3.4rem;
+  margin: 0;
+  border-radius: 0.85rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border);
 }
 
 .language ul li img {
-    width: 50px; 
-    height: auto;
+  width: 1.9rem;
+  height: auto;
 }
 
 .education {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-}
-
-.education ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .education li {
-    margin-bottom: 2rem; 
+  margin: 0;
+  padding: 1rem 1.1rem;
+  border-radius: 0.9rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border);
 }
 
-.education .title {
-    margin: 0 0 0.5rem 0; 
+.education h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
 }
 
 .education .period {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 0.5rem; 
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.55rem;
+  color: var(--accent);
+  font-size: 0.92rem;
+  font-weight: 600;
 }
 
 .education .period::before {
-    content: "";
-    display: inline-block;
-    width: 1em;
-    height: 1rem;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image:url('..images/icons/calender.svg');
-    margin-right: .5rem;
+  content: "";
+  width: 0.95rem;
+  height: 0.95rem;
+  margin-right: 0.45rem;
+  background: url("../images/icons/calender.svg") no-repeat center / contain;
 }
 
 .education p {
-    margin: 0;
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.55;
 }

@@ -1,78 +1,66 @@
 * {
-    box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
 }
 
-
 @font-face {
-    font-family: 'Nue Machina';
-    src:url('..fonts/neue-machina-regular.otf');
+  font-family: "Neue Machina";
+  src: url("../fonts/neue-machina-regular.otf");
+  font-display: swap;
+}
+
+:root {
+  --bg: #07090d;
+  --surface: #12161e;
+  --surface-2: #1a2030;
+  --border: rgba(255, 255, 255, 0.12);
+  --text: #f3f5f7;
+  --muted: #a7b0bf;
+  --accent: #3ecf8e;
+  --accent-soft: rgba(62, 207, 142, 0.16);
+  --shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+  --radius: 1.25rem;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: #000;
-    color: #fff;
+  margin: 0;
+  min-height: 100vh;
+  color: var(--text);
+  font-family: "Open Sans", sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(62, 207, 142, 0.12), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(56, 120, 255, 0.1), transparent 30%),
+    var(--bg);
 }
 
- a{
-    color: #fff;
-    text-decoration: none;
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
 
- a:hover{
-    color: #fff;
-    text-decoration: underline;
+a:hover {
+  color: #7aefb2;
+  text-decoration: underline;
 }
 
 .main {
-    margin: 1rem;
-    padding: 1rem;
-    border: 1px solid #fff;
-    border-radius: 1rem;
-
+  width: min(920px, calc(100% - 2rem));
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent 40%), var(--surface);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(8px);
 }
 
-.main::before {
-    content: '';
-    background-image:url('..images/background.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: inline-block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 140vw;
-    height: 100vh;
-    z-index: -1;
-}
-
-.main::after {
-    content: '';
-    background-image:url('..images/background.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: inline-block;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 140vw;
-    height: 100vh;
-    z-index: -1;
-    transform: rotate(180deg);
-}
-
-@media only screen and (min-width: 768px) {
-    .main {
-        max-width: 1024px;
-        margin: 1rem auto;
-    }
-
-    .main::before .main::after {
-        width: 70vw;
-        
-    }
-
-
-
-
+@media (min-width: 768px) {
+  .main {
+    margin: 2.5rem auto;
+    padding: 2rem 2.25rem;
+  }
 }
